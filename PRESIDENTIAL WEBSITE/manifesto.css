@@ -1,0 +1,55 @@
+/* universal styling */
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: capitalize;
+    text-decoration: none;
+    margin: 0; padding: 0;
+    box-sizing: none;
+}
+
+/* General styles */
+html{
+    font-size: 100%;
+    overflow: scroll;
+    background: radial-gradient(rgb(235, 231, 231),pink);
+
+}
+
+    
+/* utility classes */
+.equal{
+    min-height: 80vh;
+    width: 100%;
+    background-image: url(pictures/Bobi-Wine.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    margin-left: 40px;
+    
+}
+
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+.two{
+    background: radial-gradient(rgb(235, 231, 231),pink);
+}
+
+.align{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 70px;
+    color: red;
+}
+
+.option{
+    text-align: center;
+    color: blue;
+}
+
+.centre{
+    text-align: center;
+}

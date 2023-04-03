@@ -1,0 +1,96 @@
+/* universal styles */
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General styles */
+html{
+    height: 150vh;
+}
+
+
+/* utility classes */
+.colour{
+    background: radial-gradient(rgb(235, 231, 231),pink);
+}
+
+.equal{
+    min-height: 60vh;
+    width: 100%;
+    background-image: url(Bobi-Wine.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    margin-left: 30px;
+    margin-right: 50px;
+    
+}
+
+.videos{
+    margin-top: 30%;
+}
+
+.loop{
+    width: 20px;
+    height: 20px;
+}
+
+video{
+    width: 27%;
+    object-fit: contain;
+    border-bottom: 2px solid rgb(197, 195, 195);;
+    transition: 0.1s;
+}
+video:hover{
+    width: 30%;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    vertical-align: top;
+    margin: 20px;
+    margin-left: 20px;
+    display: inline-block;
+    
+}
+main{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 1fr);
+    grid-template-rows: 140px;
+    row-gap: 20px;
+    place-content: center;
+    place-items:center ;
+    margin-left: 10%; 
+    margin-right: 10%; 
+}
+main>div{
+    border-bottom: 2px solid rgb(243, 240, 240);
+    
+}
+
+/* media queries starts here */
+@media screen and ( max-width :700px) {
+
+      main{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, (minmax 300px));
+        grid-auto-rows: 140px;
+        row-gap: 20px;
+        place-content:center;
+        place-items:center ;
+          
+    }
+    p{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: small;
+        margin-left:0% ;
+        
+    }
+    video{
+        margin-left: 20%;
+    }
+ }
+
+

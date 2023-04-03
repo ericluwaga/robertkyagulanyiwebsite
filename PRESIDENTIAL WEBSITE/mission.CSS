@@ -1,0 +1,53 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:boarder-box;
+	
+}
+html{
+	font-size:75%;
+	font-family:sans-serif, algerian;
+	
+}
+.background{
+	min-height: 70vh;
+    width: 100%;
+    background-image: url(pictures/law.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+	margin-left: 10px;
+	margin-top: 0;
+	
+}
+.colour{
+	background: radial-gradient(rgb(235, 231, 231),pink);
+	width: 100%;
+}
+
+.p1{
+	font-size:30px ;
+	color: rgb(182, 10, 10);
+	text-align: center;
+	border: 1px solid transparent;
+	
+}
+.ease{
+	font-size: 15px;
+	box-sizing: border-box;
+	border: 1px transparent;
+	margin-left: 50px;
+	margin-top: 10%;
+	float: right;
+}
+.process{
+	font-size: 15px;
+	box-sizing: border-box;
+	border: 1px transparent;
+	margin-left: 50px;
+	margin-top: 10%;
+	
+}
+ .img3 {
+	width: 20%;
+ }
